@@ -1,9 +1,9 @@
  class Ceo extends Manager {
 
 
-     Ceo(String name){
-         super(name);
 
+     Ceo (String name){
+         super(name);
      }
 
 

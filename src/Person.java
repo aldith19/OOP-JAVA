@@ -2,6 +2,7 @@ class Person {
 
     String name;
     String address;
+
     final String country = "indonesia";
 
     Person(String name, String address){

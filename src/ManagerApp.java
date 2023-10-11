@@ -5,7 +5,7 @@ public class ManagerApp {
         var manager = new Manager("Eko");
         manager.sayhello("budi");
 
-        var ceo = new Ceo("Aldith");
+        var ceo = new Ceo("Aldith","PT.Dahana");
         ceo.sayhello("budi");
 
         var employee = new  Employee("Reynaldi");

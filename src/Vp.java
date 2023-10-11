@@ -2,8 +2,9 @@ class Vp extends Manager {
 
     Vp (String name, String company){
         super(name,company);
-
     }
+
+
 
     @Override
     void sayhello(String name) {
