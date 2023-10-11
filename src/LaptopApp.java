@@ -31,6 +31,15 @@ public class LaptopApp {
 
     }
      static void brosur( Laptop laptop){
-         System.out.println("Nama Brand " + laptop.name);
-    }
+        if (laptop instanceof Lenovo){
+            Lenovo lenovo = (Lenovo) laptop;
+            System.out.println("Nama Brand A " + lenovo.name);
+        } else if ( laptop instanceof  Msi) {
+             Msi msi = (Msi) laptop;
+            System.out.println("Nama Brand B " + msi.name);
+        }else{
+            System.out.println("Nama Brand C " + laptop.name);
+        }
+
+     }
 }
