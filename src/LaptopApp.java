@@ -11,6 +11,7 @@ public class LaptopApp {
         Msi msi = new Msi("Cyborg",12500000, "Processor I5-12100F");
         msi.brosur("MSI ");
 
+        System.out.println("   ");
         /* Perubahan bentuk dalam Polymorphisme */
 
         Laptop laptop1 = new Laptop("Predator",17500000, "Processor AMD Ryzen 75000");
@@ -22,8 +23,14 @@ public class LaptopApp {
         laptop1 = new Msi("Cyborg",12500000, "Processor I5-12100F");
         laptop1.brosur("MSI ");
 
+        System.out.println(" ");
 
+        brosur(new Laptop("Aspire"));
+        brosur(new Lenovo("Yoga"));
+        brosur(new Msi("Extreme"));
 
-
+    }
+     static void brosur( Laptop laptop){
+         System.out.println("Nama Brand " + laptop.name);
     }
 }

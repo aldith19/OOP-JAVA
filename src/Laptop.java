@@ -10,8 +10,12 @@ class Laptop {
         this.spek = spek;
         }
 
+    Laptop(String name){
+        this(name,null,null);
+    }
+
     void brosur(String name){
-        System.out.println( " Nama Produk " + name + this.name + " Harga " + this.harga + " " + this.spek );
+        System.out.println( " Nama Produk A " + name + this.name + " Harga " + this.harga + " " + this.spek );
     }
 
 
