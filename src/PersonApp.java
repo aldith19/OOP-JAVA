@@ -3,11 +3,9 @@ public class PersonApp {
 
         var person = new Person("udin","subang");
 
-
         System.out.println(person.name);
         System.out.println(person.address);
         System.out.println(person.country);
-
         person.sayhello("budi");
 
         Person person2 = new Person("adi");
