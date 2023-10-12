@@ -1,6 +1,6 @@
 package ProgramLearnJava.data;
 
-public interface Car extends HashBrand, Maintance{
+public interface Car extends HashBrand, Maintance, Color{
 
     void drive();
 

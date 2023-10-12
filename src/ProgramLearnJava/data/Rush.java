@@ -14,6 +14,11 @@ public class Rush implements Car{
         return "toyota";
     }
 
+
+    public  String getcolor(){
+        return "Biru";
+    }
+
     public boolean isMaintance() {
         return false;
     }

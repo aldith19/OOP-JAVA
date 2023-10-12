@@ -8,6 +8,8 @@ import ProgramLearnJava.data.Rush;
 public class CarApp {
     public static void main(String[] args) {
         Car car = new Rush();
+        System.out.println(car.getcolor());
+        System.out.println(car.getBrand());
         System.out.println(car.getTrire());
         car.drive();
     }

@@ -18,6 +18,11 @@ public class Bus implements Car{
         return "Hino";
     }
 
+    @Override
+    public String getcolor() {
+        return "merah";
+    }
+
     public boolean isMaintance() {
         return false;
     }
