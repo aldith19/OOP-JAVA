@@ -3,7 +3,7 @@ package ProgramLearnJava.data;
 public class Rush implements Car{
 
     public void drive() {
-        System.out.println("Mobilku");
+        System.out.println("Minibus");
     }
 
     public int getTrire() {

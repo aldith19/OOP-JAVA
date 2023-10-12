@@ -3,7 +3,7 @@ package ProgramLearnJava.data;
 public class Bus implements Car{
 
     public void drive() {
-        System.out.println("Jenis Bis");
+        System.out.println("Bis");
     }
 
     public int getTrire() {
