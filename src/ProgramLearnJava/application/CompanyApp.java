@@ -6,7 +6,7 @@ public class CompanyApp {
     public static void main(String[] args) {
 
         Company company = new Company();
-        company.setName("Belajar Java");
+        company.setName("PT.Java");
 
         Company.Employee employee = company.new Employee();
         employee.setName("Aldith");
@@ -16,7 +16,7 @@ public class CompanyApp {
 
 
         Company company1 = new Company();
-        company1.setName("Belajar javascript");
+        company1.setName("PT.Javascript");
 
         Company.Employee employee1 = company1.new Employee();
         employee1.setName("Aldith Reynaldi");

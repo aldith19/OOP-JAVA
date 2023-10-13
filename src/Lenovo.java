@@ -11,4 +11,8 @@ class Lenovo extends Laptop{
         System.out.println( " Nama produk B " + name  + this.name + " Harga " + this.harga + " " + this.spek );
         System.out.println(" Untuk produk Lenovo sedang diskon ");
     }
+
+
+
+
 }

@@ -41,5 +41,8 @@ public class LaptopApp {
             System.out.println("Nama Brand C " + laptop.name);
         }
 
+
+
+
      }
 }
