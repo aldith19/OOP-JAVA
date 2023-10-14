@@ -8,7 +8,6 @@ public class ValidationApp {
     public static void main(String[] args) {
 
         LoginRequest loginRequest = new LoginRequest("eko","1cak");
-
         /* blok Try catch untuk menangkap error, Bisa pake ini | buat error excepion secara banyak */
         /* Final keyword blok untuk dimana selalu eksekusi  baik terjadi exception atau tidak,  mau itu sukses atau gagal */
         try{

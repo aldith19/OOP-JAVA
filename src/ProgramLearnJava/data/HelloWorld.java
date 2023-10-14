@@ -4,5 +4,5 @@ public interface HelloWorld {
 
     void sayhello();
 
-    void sayhello( String Name);
+    void sayhello(String Name);
 }

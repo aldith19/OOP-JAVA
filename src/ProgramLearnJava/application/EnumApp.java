@@ -15,14 +15,15 @@ public class EnumApp {
         System.out.println(customer.getLevel());
         System.out.println(customer.getLevel().getDekskripsi());
 
-
+        //konversi enum ke string
         String levelName = Level.VIP.name();
         System.out.println(levelName);
 
-
+        //konversi string ke enum
         Level level = Level.valueOf("PREMIUM");
         System.out.println(level);
 
+        // untuk ambil semua enum yang ada
         System.out.println("Print Level");
         for (var value : Level.values()) {
             System.out.println(value);

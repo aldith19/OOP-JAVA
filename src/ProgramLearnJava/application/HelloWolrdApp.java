@@ -12,8 +12,12 @@ public class HelloWolrdApp {
 
             @Override
             public void sayhello(String Name) {
+
                 System.out.println("hello " + Name);
             }
         };
+
+        helloWorld.sayhello("ki");
+
     }
 }
